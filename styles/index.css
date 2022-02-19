@@ -1,5 +1,17 @@
-.animate__animated.animate__pulse {
-    --animate-duration: 3s;
-    --animate-repeat: 2;
+.dot{
+    height: 200px;
+    width: 200px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: yellow;
+   
+}
+
+.dot:hover{
+    background-color: white;
+    transition: all 1s ease-in-out;
     
 }
+
+@keyframes
