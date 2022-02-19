@@ -1,0 +1,5 @@
+.animate__animated.animate__pulse {
+    --animate-duration: 3s;
+    --animate-repeat: 2;
+    
+}
