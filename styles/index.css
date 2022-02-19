@@ -1,17 +1,19 @@
-.dot{
-    height: 200px;
-    width: 200px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    background-color: yellow;
+.text-box{
+    width: 800px;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+.text {
+    font-size: 60px;
+    
    
 }
 
-.dot:hover{
-    background-color: white;
-    transition: all 1s ease-in-out;
-    
+.text:hover {
+    color: white;
+    transition: all 1s ease-in-out; 
 }
 
 @keyframes
